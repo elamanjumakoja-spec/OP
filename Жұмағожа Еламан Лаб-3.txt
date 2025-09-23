@@ -1,0 +1,26 @@
+# number = 12345
+# sum_of_digits = 0
+
+# while number > 0:
+#     digit = number % 10
+#     sum_of_digits += digit
+#     number = number // 10
+
+# print(f"Санның цифрларының қосындысы: {sum_of_digits}")
+
+numbers = [1, 5, 8, 12, 17, 20, 25, 30]
+count_of_even = 0
+sum_of_even = 0
+
+for num in numbers:
+    if num % 2 == 0:
+        count_of_even += 1
+        sum_of_even += num
+
+print(f"Жұп сандардың саны: {count_of_even}")
+
+if count_of_even > 0:
+    average_of_even = sum_of_even / count_of_even
+    print(f"Жұп сандардың орташа мәні: {average_of_even}")
+else:
+    print("Тізімде жұп сандар табылмады.")
