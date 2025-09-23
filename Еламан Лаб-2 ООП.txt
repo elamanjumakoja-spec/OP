@@ -1,0 +1,49 @@
+num1 = 50
+num2 = 25
+result = num1 - num2
+if result > 0:
+    print(f"Азайту нәтижесі (оң сан): {result}")
+
+
+num1 = 35
+num2 = 45
+result = num1 + num2
+if result < 100:
+    print(f"Қосу нәтижесі (100-ден аз): {result}")
+
+
+num1 = 12
+num2 = 0
+result = num1 * num2
+if result == 0:
+    print(f"Көбейту нәтижесі (нөлге тең): {result}")
+
+base = 100
+power = 11
+result = base ** power
+if result > 1000:
+    print(f"Дәрежеге шығару нәтижесі (1000-нан үлкен): {result}")
+
+
+num1 = 100
+num2 = 10
+if num2 != 0:
+    result = num1 / num2
+    print(f"Бөлу нәтижесі: {result}")
+else:
+    print("Нөлге бөлу мүмкін емес.")
+
+
+num1 = 17
+num2 = 5
+result = num1 // num2
+print(f"{num1} // {num2} = {result}")  # Нәтиже: 3
+   
+    
+num1 = 15
+num2 = 2
+remainder = num1 % num2
+if remainder == 1:
+    print(f"Бөлуден қалдық (тақ): {remainder}")
+else:
+    print("Бөлуден қалдық (жұп):", remainder)
