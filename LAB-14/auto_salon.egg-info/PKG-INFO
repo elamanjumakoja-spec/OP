@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: auto_salon
+Version: 0.1.0
+Summary: Car Dealership management utility package
+Author-email: Student Name <student@example.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Auto Salon Package
+
+This package helps manage car dealership operations including finance calculations and inventory formatting.

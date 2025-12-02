@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+auto_salon.egg-info/PKG-INFO
+auto_salon.egg-info/SOURCES.txt
+auto_salon.egg-info/dependency_links.txt
+auto_salon.egg-info/top_level.txt
